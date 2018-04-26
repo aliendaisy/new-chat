@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('./font/iconmoon.ttf'); /* IE9*/
+    src: url('./font/iconmoon.ttf') format('embedded-opentype'); /* IE6-IE8 */
+    src: url('./font/iconmoon.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-over:before {
+    content: "\e900";
+    color: #249c24;
+}
+.icon-sending:before {
+    content: "\e901";
+    color: #609dd4;
+}
+.icon-undo:before {
+    content: "\e902";
+    color: #7c7c7c;
+}
+.icon-unhappy:before {
+    content: "\e903";
+}

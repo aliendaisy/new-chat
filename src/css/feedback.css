@@ -1,0 +1,44 @@
+.feedbackSon{
+    background-color: white;
+    padding: 0 20px;
+}
+.feedBox{
+    border-bottom: solid 1px #e5e5e5;
+    padding: 6px 0;
+    font-size: 15px;
+    overflow: hidden;
+}
+.feedBox:last-child{
+    border: none;
+}
+    .feedBox span{
+        width: 23%;
+        line-height: 30px;
+        display: inline-block;
+    }
+    .feedBox input{
+        border: none;
+        height: 30px;
+        width: 77%;
+        margin: 0;
+    }
+    .feedBox select{
+        border: none;
+        width: 77%;
+        height: 30px;
+        background-color: transparent;
+        display: inline-block;
+        margin: 0;
+        color: #5b5b5b;
+
+    }
+    .feedBox textarea{
+        width: 77%;
+        border: none;
+        padding: 6px 0;
+    }
+    .feedBox .pickerShow{
+        width: 77%;
+        height: 30px;
+        line-height: 30px;
+    }

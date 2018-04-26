@@ -1,0 +1,48 @@
+.placeOrderCon{
+    width: 100%;
+    background-color: #F4F4F4;
+}
+    .placeOrderCon .orderRow {
+        font-size: 14px;
+
+    }
+    .placeOrderCon .orderDispatch{
+        font-size: 12px;
+        color: #2c2c2c;
+        float: right;
+    }
+    .placeOrderCon .orderDispatch i{
+        margin-left: 5px;
+    }
+.startSendThird{
+    display: inline-block;
+}
+/*确定下单总页面*/
+.allMoney{
+    height: 38px;
+    margin-top: 8px;
+    background-color: white;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: right;
+}
+.allMoney span{
+    color: red;
+}
+.PicAddrCon{
+    position: relative;
+}
+.PicAddrCon img{
+    display: block;
+}
+.couponMoney{
+    font-size: 15px;
+}
+.placeOrderBottomPadding{
+    padding: 30px 0;
+}
+.dateRight{
+    font-size: 14px;
+    float: right;
+}

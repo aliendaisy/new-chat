@@ -1,0 +1,36 @@
+.orderSuccessCon{
+    height: 100%;
+    /*overflow: auto;*/
+    background-color: white;
+}
+.successInfo{
+    /*background-color: pink;*/
+    border-bottom: solid 1px #e5e5e5;
+    border-top: solid 1px #e5e5e5;
+}
+.successSon{
+    font-size: 14px;
+    padding: 20px 35px;
+}
+.successSon p{
+    text-align: center;
+}
+.shareBox{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 92%;
+    margin: 0 auto;
+}
+.fontPad{
+    padding: 0 0 10px 0;
+    font-size: 14px;
+}
+.shareFont{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.btnPosition{
+    width: 90px;
+    margin: auto;
+}

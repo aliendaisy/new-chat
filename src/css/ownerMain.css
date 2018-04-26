@@ -1,0 +1,72 @@
+
+
+/*图片与文字*/
+.picContain{
+    width: 100%;
+    background-color: white;
+
+}
+.picContain img{
+   width: 100%;
+    height: auto;
+}
+.imgFont{
+    padding: 15px 15px 10px;
+    font-size: 15px;
+}
+.imgFontPrice{
+    padding: 0 15px 5px;
+    overflow: hidden;
+    line-height: 32px;
+}
+.price{
+    color:#FF0000;
+    font-size: 18px;
+}
+.priceDisable{
+    text-decoration: line-through;
+    color: #7C7C7C;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/*服务*/
+.serviceDisplay{
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    line-height: 12px;
+}
+.serviceDisplay .icon-dui{
+    font-size: 12px;
+    color: #0f71ff;
+}
+.fontSizeEleven{
+    font-size: 11px;
+    color: #2c2c2c;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+/*主要内容*/
+.innerCon {
+    padding: 0 20px;
+    background-color: #FAFBFD;
+}
+.threeBtn button{
+    margin-top: 10px;
+}
+.ownerFooter{
+    overflow: auto;
+    padding: 10px 0 0 0;
+    font-size: 15px;
+}
+.ownerMain .orderRow{
+    font-size: 14px;
+}
+.detailImg{
+    width: 100%;
+}
+.bottomPadding{
+    padding: 22px 0;
+}

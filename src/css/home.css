@@ -1,0 +1,124 @@
+/*home主要页面*/
+.homeIconCon{
+    height: 100px;
+    padding: 15px 0;
+    background-color: white;
+    display: flex;
+}
+.homeIconCon a{
+    color: black;
+}
+.homeMilkFlex{
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+.homeMilkLeft{
+    flex: 1;
+    border-right: solid 1px #e5e5e5;
+}
+.homeMilkLeft img{
+    display: block;
+    width: 85%;
+    margin: 0 auto 5px;
+}
+.homeMilkRight{
+    flex: 1;
+}
+.homeSonMilk{
+    padding: 10px 5px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.homeSonMilk:first-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+.homeSonMilk img{
+    display: block;
+    margin: 20px auto 10px;
+}
+.homeSonMilk:first-child img{
+    width: 85%;
+}
+.homeSonMilk:last-child .homeMilkFont{
+    position: relative;
+    z-index: 901;
+}
+.homeSonMilk:last-child img{
+    width: 80%;
+    position: absolute;
+    top: 47px;
+    bottom: auto;
+    right: -5px;
+    left: auto;
+    margin: 0;
+}
+.homeMilkCon{
+    overflow: hidden;
+}
+.homeJuice{
+    flex: 1;
+    padding: 10px 8px;
+    border-left: 1px solid #e5e5e5;
+}
+.homeJuice:first-child{
+    border: none;
+}
+.homeJuice img{
+    display: block;
+    width: 80%;
+    margin: 20px auto 10px;
+}
+/*上图下面文字*/
+.homeIconSon{
+    flex: 1;
+}
+.homeIconWidth{
+    width: 55px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+}
+.homeIconWidth img{
+    width: 44px;
+    height: 44px;
+}
+.coolMilkBac{
+    height: 36px;
+    width: 100%;
+}
+.homeVege{
+    padding: 10px 8px;
+    background: url('http://wxxdmy.oss-cn-hangzhou.aliyuncs.com/wxxdmy/pic_words.png') no-repeat 10px 60px;
+    background-size: 46%;
+}
+.homeVege img{
+    width: 50%;
+    margin-top: -30px;
+    float: right;
+}
+
+/*文字左边,下面图*/
+.homeMilkFont div:first-child{
+    font-size: 13px;
+    color: black;
+}
+.homeMilkFont div:nth-child(2){
+    font-size: 11px;
+    color: #609dd4;
+}
+.homeSonLeft{
+    padding: 10px 8px;
+}
+.homeSonLeft:first-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@media screen and (max-width: 320px) {
+    .homeMilkFont div:first-child{
+        font-size: 12px;
+    }
+    .homeMilkFont div:nth-child(2){
+        font-size: 10px;
+    }
+}

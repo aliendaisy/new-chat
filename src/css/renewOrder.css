@@ -1,0 +1,97 @@
+
+.renewOrderCon .fontOrder{
+    background-color: white;
+}
+.renewCon{
+    height: 45px;
+    padding-top: 10px;
+    background-color: white;
+}
+    .renewCon button{
+        float: right;
+    }
+
+/*MOdal*/
+.renewModal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:9999;
+}
+.renewOpacity{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #cecece;
+    opacity: 0.5;
+}
+.modalCon {
+     background-color: white;
+     position: fixed;
+     bottom: 0;
+     z-index: 9999;
+     width: 100%;
+}
+    .modalCon .modalSon{
+        padding: 10px 15px;
+    }
+    .modalCon .modalFooter{
+        display: flex;
+        height: 40px;
+        line-height: 40px;
+        border-top:solid 1px #e5e5e5;
+    }
+    .modalCon .modalFooterLeft{
+        flex: 1.2;
+        text-align: center;
+        background-color: white;
+    }
+    .modalCon .modalFooterRight{
+        width: 100px;
+        flex: 2;
+        text-align: center;
+        background: -webkit-linear-gradient(left,#A8D9EF,#287DC2);
+    }
+    .modalCon .modalFooterRight button{
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+        color: white;
+        background: inherit;
+        font-size: 16px;
+    }
+    .modalCon .modalHeader{
+        display: flex;
+        font-size: 14px;
+    }
+    .modalCon .modalHeader div:first-child{
+        width: 90%;
+        flex: 1;
+    }
+    .modalCon .modalHeader div:nth-child(2){
+        width: 10%;
+        text-align: right;
+    }
+    .modalCon .modalPrice .price{
+        font-size: 15px;
+    }
+    .modalCon .modalPrice .priceDisable{
+        font-size: 14px;
+    }
+        .modalSon .orderRow{
+            font-size: 14px;
+        }
+ .modalHide{
+     display: none;
+ }
+ .opacityB{
+     opacity: 0.4;
+     height: 100%;
+ }
+.opacityW{
+    opacity: 1;
+}

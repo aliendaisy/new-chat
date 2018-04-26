@@ -1,0 +1,36 @@
+.billCon{
+    background-color: white;
+}
+    .billCon img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        color: black;
+    }
+    .billCon .orderInfoImg {
+        width: 50px;
+    }
+    .billCon .orderInfoPrice {
+        width: 100px;
+        text-align: right;
+    }
+    .billCon .statusColor {
+        color: black;
+    }
+    .billCon .orderInfoCon {
+        padding: 10px 20px 0 20px;
+        background-color: white;
+    }
+    .billCon .orderInfoSon {
+        padding-bottom: 10px;
+        border-bottom: solid 1px #e5e5e5;
+    }
+    .billCon .orderInfoCon:last-child .orderInfoSon{
+        border: none;
+    }
+    .billCon .orderInfoFirst{
+        line-height: 20px;
+    }
+    .billCon .orderInfoFirst div{
+        padding-top: 3px;
+    }

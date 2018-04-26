@@ -1,0 +1,98 @@
+.purseCon .orderInfoConAll {
+    font-size: 14px;
+}
+.purseCon .orderInfoCon{
+    background: #fff;
+}
+/*充值盒子*/
+.purseBox{
+    background-color: white;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.rechargeBox{
+    height: 43px;
+    width: 24%;
+    position: relative;
+    border: solid 1px #609DD4;
+    border-radius: 4px;
+    line-height: 43px;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 20px;
+
+    /*display: block;*/
+}
+.rechargeSon{
+    position: absolute;
+    width: 43px;
+    overflow: auto;
+    height: 16px;
+    line-height: 15px;
+    border-radius:8px;
+    border:solid 1px #FF2626;
+    color:#FF2626 ;
+    text-align: center;
+    font-size: 9px;
+    top:-10px;
+    left: 70%;
+    background-color: white;
+}
+
+/*钱包主页面*/
+.purseTop{
+    background-color: white;
+}
+    .purseTop .fontPad {
+        padding: 10px 20px;
+         font-size: 14px;
+    }
+    .purseTop .orderInfoConLeft {
+        font-size: 16px;
+    }
+    .purseTop .orderInfoConRight {
+        color: black;
+    }
+
+.displayFlexLeft{
+    width: 188px;
+    font-size: 34px;
+    padding-left: 20px;
+}
+.displayFlexLeft span{
+    font-size: 23px;
+}
+.displayFlexRight{
+    font-size: 13px;
+    line-height: 25px;
+}
+.purseInner{
+    overflow: auto;
+    width: 100%;
+}
+.agreeMent{
+    font-size: 10px;
+    position: fixed;
+    bottom:50px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+}
+.agreeMent a {
+    color: #609DD4;
+}
+.purseBlue{
+    color: white;
+    background-color: #609DD4;
+}
+.purseWhite{
+    background-color: white;
+}
+.purseAll{
+    font-size: 14px;
+    text-align: right;
+}
+.purseAll span{
+    color: red;
+}
+

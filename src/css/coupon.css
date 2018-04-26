@@ -1,0 +1,144 @@
+.coupon{
+    width: 100%;
+    background: #fff;
+}
+.cardCon{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+/*cardCoupon*/
+.cardCoupon{
+    width: 100%;
+    height: 80px;
+    margin: 20px auto;
+    text-align: center;
+}
+    .cardLeft{
+        width: 80%;
+        height: inherit;
+        border: 1px solid #609dd4;
+        border-right: 0;
+        border-radius: 6px;
+        background: rgba(96,157,212,0.16);
+    }
+    .cardLeft p{
+        width: 100%;
+        height: 50%;
+    }
+        .cardCash{
+            width: 37%;
+            height: inherit;
+            border-right: 1px dashed #609dd4;
+        }
+        .cardCash p>span:first-child{
+            font-size: 22px;
+            line-height: 55px;
+        }
+        .cardCash>p:last-child{
+            font-size: 11px;
+        }
+        .cardContent{
+            float: left;
+            width: 63%;
+            height: inherit;
+        }
+        .cardContent p{
+            height: 40%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .cardContent>p:first-child{
+            font-size: 12px;
+            line-height: 50px;
+        }
+        .cardContent>p:last-child{
+            font-size: 10px;
+            color: #7c7c7c;
+            line-height: inherit;
+        }
+        .cardContent div{
+            font-size: 10px;
+            color: #7c7c7c;
+        }
+    .cardRight{
+        width: 20%;
+        height: inherit;
+        border: 1px solid #609dd4;
+        border-left: 1px dashed #609dd4;
+        border-radius: 6px;
+        background: rgba(96,157,212,0.16);
+    }
+    .cardRight p{
+        width: 100%;
+        font-size: 13px;
+        color: #609dd4;
+        line-height: 80px;
+    }
+    .nonUse{
+        width: 100%;
+        height: 44px;
+        border: 1px solid #609dd4;
+        background: rgba(96,157,212,0.16);
+        border-radius: 6px;
+        margin: 20px auto;
+    }
+    .nonUse p{
+        font-size: 12px;
+        line-height: 44px;
+    }
+    .nonUse p:first-child{
+        width: 77.2%;
+        padding-left: 2%;
+    }
+    .nonUse p:last-child{
+        width: 22.8%;
+        text-align: center;
+    }
+    .nonUse p.icon-using{
+        font-size: 20px;
+    }
+.UsedCard .cardLeft{
+    border: 1px solid #7c7c7c;
+    background: rgba(124,124,124,0.16);
+    border-right: 0;
+}
+.UsedCard .cardCash{
+    border-right: 1px dashed #7c7c7c;
+}
+.UsedCard .cardRight{
+    border: 1px solid #7c7c7c;
+    border-left: 1px dashed #7c7c7c;
+    background: rgba(124,124,124,0.16);
+}
+.UsedCard .cardRight p{
+    color: #7c7c7c;
+}
+/*UsingCoupon*/
+.cardLeftUsing{
+    width: 24%;
+}
+    .cardLeftUsing .cardCash{
+        width: 100%;
+        border: none
+    }
+.cardRightUsing{
+    width: 76%;
+}
+    .cardRightUsing p{
+        color: #000;
+    }
+    .cardRightUsing .cardFont{
+        width: 30%;
+    }
+    .cardRightUsing .cardFont .icon-using{
+        font-size: 30px;
+    }
+.UsedCard .cardRightUsing>p:first-child{
+    color: #000;
+}
+.am-tabs-bar{
+    width: 92%;
+    margin: 0 auto;
+}

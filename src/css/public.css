@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+/*去除滚动条*/
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: PingFang SC;
+    background-color: #F4F4F4;
+    line-height: 1.5;
+    -webkit-text-size-adjust:none !important;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+.topCon{
+    padding-top: 40px; /*不加height不加overflow*/
+}
+.red{
+    color: #f00;
+}
+/*placeholder*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:14px;
+    padding-left: 3px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size:14px;
+    padding-left: 3px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size:14px;
+    padding-left: 3px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size:14px;
+    padding-left: 3px;
+}
+
+p{
+    margin: 0;
+}
+img {
+    vertical-align: baseline;
+}
+a{
+    text-decoration: none;
+    color: #7c7c7c;
+}
+a:hover{
+    color: black;
+}
+.fontGray{
+    color: #7c7c7c;
+}
+.innerCon{
+    padding: 0 20px;
+    background-color: #fafbfd;
+}
+.innerWhite{
+    padding: 0 4%;
+    background-color: white;
+}
+.innerConWhite{
+    padding: 10px 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.innerConNone{
+    padding: 0 20px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+input{
+    height: 16px;
+    border-radius: 8px;
+    border: solid 1px #609DD4;
+    outline: none;
+}
+select{
+    font-size: 14px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.showInline{
+    display: inline-block;
+}
+.ownerContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #F4F4F4;
+}
+/*header 组件*/
+.navHeader{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    background-color: #d5d5d5;
+    text-align: center;
+}
+    .navHeader .headerLeft{
+        display: inline-block;
+        width: 10%;
+        padding: 5px 10px;
+    }
+    .navHeader .headerRight{
+        width: 90%;
+        line-height: 40px;
+        color: #7c7c7c;
+        font-size: 17px;
+    }
+    .navHeader .headerRight span{
+        margin-left: -40px;
+    }
+/*button class*/
+.btnOther{
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #2c2c2c;
+    border: solid 1px #2c2c2c;
+    background-color: white;
+    border-radius: 18px;
+    outline: none;
+}
+.btnBlue{
+    border: solid 1px #609DD4;
+    margin-right: 15px;
+}
+.btnBlue1{
+    border: solid 1px black;
+    margin-left: 15px;
+}
+.btnBlue2{
+    border: solid 1px #609DD4;
+    background-color: #609DD4;
+    color: white;
+    margin-left: 15px;
+}
+
+/*OrderAddr 组件*/
+.orderAddrCon{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    /*border-bottom: solid 1px #c5bfbf;*/
+}
+.orderAddrSon{
+    display: flex;
+    padding: 0 40px 0 53px;
+    font-size: 14px;
+}
+.orderAddrRow{
+    display: flex;
+}
+.orderAddrPic{
+    width: 53px;
+    /*地址定位那个微调的  新加*/
+    margin-top: -5px;
+}
+.orderAddrPic i{
+    margin-left: 15px;
+}
+.orderAddrInto{
+    width: 35px;
+    margin-left: 5px;
+}
+.orderAddrFont{
+    flex: 1;
+    font-size: 13px;
+    padding: 5px 0;
+}
+.orderAddrFont p{
+    font-size: 13px;
+}
+.receiver{
+    flex: 1;
+}
+.receiverPhone{
+    width: 100px;
+    text-align: right;
+}
+
+/*Discount 组件*/
+.discount{
+    font-size: 11px;
+    padding: 10px 0;
+    border-bottom: solid 1px #e5e5e5;
+}
+.discountBtn{
+    font-size: 11px;
+    color:#FF0000 ;
+    padding: 0 4px;
+    border: solid 1px #FF0000;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+}
+.discountFont{
+    color: #2c2c2c;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+/*OrderInfo 组件*/
+.orderInfoCon{
+    display: flex;
+    padding:10px 15px;
+    background-color: #fafbfd;
+    font-size: 12px;
+}
+.orderInfoSon{
+    display: flex;
+    width: 100%;
+}
+.orderInfoImg{
+    width: 80px;
+    margin-right: 8px;
+}
+.orderInfoImg img{
+    width: 100%;
+}
+.orderInfoMain{
+    flex: 1;
+    /*background-color: pink;*/
+}
+.orderInfoFirst{
+    display: flex;
+}
+.orderInfoFirstFont{
+    flex: 1;
+}
+.orderInfoPrice{
+    width: 65px;
+    text-align: right;
+}
+.orderInfoType{
+    color: #7C7C7C;
+    font-size: 11px;
+    padding-top: 3px;
+}
+.statusColor{
+    color: red;
+    font-size: 14px;
+}
+.fontSize{
+    font-size: 13px;
+}
+
+/*TwoFont 组件*/
+.twoFontCon {
+    display: flex;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.orderInfoConLeft {
+    /*width: 40px;*/
+    color: black;
+    flex: 2;
+}
+.orderInfoConRight {
+    text-align: right;
+    flex: 5;
+    color: #7c7c7c;
+}
+
+/*RightFont 组件*/
+.RightFont{
+    display: flex;
+    background-color: white;
+    font-size: 14px;
+}
+.orderInfoConAll{
+    width: 100px;
+    font-size: 12px;
+    text-align: right;
+}
+
+/*RowInto 组件*/
+.rowIntoCon{
+    display: flex;
+    padding: 5px 0;
+    width: 100%;
+}
+    .rowIntoCon div{
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .rowIntoConLeft{
+        color: #2c2c2c;
+        text-align: left;
+    }
+    .rowIntoConRight{
+        flex: 1;
+        color: #7c7c7c;
+        text-align: right;
+    }
+    .rowIntoConRight span{
+        margin-right: 5px;
+    }
+
+/*Footer组件*/
+.footerBtn{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background: -webkit-linear-gradient(left,#A8D9EF,#287DC2);
+    position: fixed;
+    bottom: 0;
+    outline: none;
+    border: none;
+}
+/*SuccessSign组件*/
+.successCon{
+    padding: 60px 0 30px 0;
+    margin: auto;
+    text-align: center;
+    color: #249c24;
+    position: relative;
+}
+.successCon .icon-using:before{
+    color: #249c24;
+}
+.successFont{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    top: -5px;
+    left: 10px;
+}
+
+/*GreyBtn组件*/
+.greyBtn{
+    padding: 4px 15px;
+    border: solid 1px #7c7c7c;
+    background-color: white;
+    color: #7c7c7c;
+    font-size: 14px;
+    outline: none;
+}
+
+/*Modal 组件*/
+.tipModalCon{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.tipOpacity{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #cecece;
+    opacity: 0.5;
+}
+.tipModal{
+    width: 74%;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    top: 188px;
+    left: 13%;
+    text-align: center;
+    border-radius: 8px;
+    z-index: 9999;
+}
+    .tipModal h5{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .tipModal p{
+        margin-top: 20px;
+        padding: 0 5px;
+        /*background-color: beige;*/
+        font-size: 14px;
+    }
+    .tipBtnCon{
+       margin-top: 20px;
+
+        border-bottom: solid 1px #e5e5e5;
+        border-top: solid 1px #e5e5e5;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .tipBtnCon>div:first-child{
+        padding: 10px 0;
+        border-right: solid 1px #e5e5e5;
+        color: #525252;
+    }
+    .tipBtnCon>div:nth-child(2){
+        padding: 10px 0;
+        color: #609DD4;
+
+    }
+
+/*主要容器*/
+.orderTypeCon{
+    padding:10px 0;
+    overflow: auto;
+    border-bottom: solid 1px #e5e5e5;
+}
+/*一行文字*/
+.orderRow{
+    font-size: 12px;
+    color: #2c2c2c;
+}
+
+/*背景颜色*/
+.bacColor{
+    background-color:white ;
+}
+.bacColor1{
+    background-color:#FAFBFD ;
+}
+/*公用*/
+
+.padNo{
+    padding: 0;
+}
+.clearLine{
+    border: none;
+}
+.clearLineRight{
+    border-right: none;
+}
+.distance{
+    margin-top: 8px;
+}
+.displayFlex{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.padBottom{
+    padding-bottom: 20px;
+}
+
+.clearPadTop{
+    padding-top: 0;
+}
+.blue{
+    border: solid 1px #609DD4;
+    margin-right: 11px;
+    background-color: #609DD4;
+    padding: 6px 13px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 18px;
+    outline: none;
+}
+.white{
+    border: solid 1px #609DD4;
+    margin-right: 11px;
+    padding: 6px 13px;
+    text-align: center;
+    font-size: 12px;
+    color: #2c2c2c;
+    border-radius: 18px;
+    outline: none;
+    background-color: white;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.FlexCon{
+    display: flex;
+}
+.FlexSon{
+    flex: 1;
+}
+
+/*PickerItem*/
+.pickerItemCon{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:9999;
+}
+    .pickerModal{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        height: 288px;
+        background-color: white;
+        z-index: 9999;
+    }
+    .pickModalHeader{
+        width: 100%;
+        padding: 10px 0;
+        overflow: auto;
+    }
+    .pickModalHeader>div{
+        width: 60px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .pickModalHeader>div:nth-child(2){
+        color: #609DD4;
+    }
+    .pickerColumn{
+        height: 120px;
+        flex: 1;
+        padding: 0 0 0 15px;
+        margin: auto;
+        overflow: auto;
+        z-index: 9999;
+    }
+    .pickerColumn ul{
+        line-height:40px;
+        list-style: none;
+        text-align: center;
+        color: grey;
+    }
+    .pickerColumn ul li{
+        height: 40px;
+    }
+    .pickerSelect{
+        height: 40px;
+        width: 100%;
+        border-bottom: solid 1px #e5e5e5;
+        border-top: solid 1px #e5e5e5;
+        position: fixed;
+        bottom: 78px;
+        z-index: 9001;
+    }
+/*加减组件*/
+.numChange{
+    width: 80px;
+    height: 24px;
+    position: relative;
+}
+.numChange .inputStyle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 36px;
+    height: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    /*margin: 0 10px 0 10px!important;*/
+    border: none;
+    box-shadow: 1px 1px 1px #C4C4C4 inset;
+}
+input[type=number]{
+    /* -webkit-appearance: none; */
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0;
+    /*margin-bottom: 0;*/
+    border-radius: 8px;
+    font-size: 14px;
+}
+.numChange span:first-child{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    margin: auto;
+}
+.numChange span:last-child{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    margin: auto;
+}
+/*没有订单*/
+.noOrder{
+    background-color: #f5f5f9;
+    padding: 188px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #7c7c7c;
+}
+.noOrder img{
+    width: 25%;
+}
+.noOrder p{
+    padding: 10px 0;
+}
+/*日历*/
+.calendarForChange{
+    width: 286px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}
+abbr[title]{
+    text-decoration: none !important;
+}
+/*allSend*/
+.subHeader{
+    padding: 5px 10px;
+}
+
+/*help*/
+.helpCon{
+    background-color: white;
+}
+.httpCon{
+    padding: 15px;
+    background-color: white;
+    font-size: 12px;
+    text-align: justify;
+    text-indent:1em;
+}

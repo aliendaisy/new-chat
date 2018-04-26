@@ -1,0 +1,141 @@
+
+    .changeOrder .iconNone:before{
+        content:''
+    }
+    .changeOrder .orderAddrInto {
+        width: 20px;
+        margin-left: 0;
+    }
+    .changeOrder .orderAddrSon {
+        padding: 0 15px 0 53px;
+    }
+    .changeOrder .PicAddrCon
+    .orderAddrFont p>span:nth-child(2){
+        margin-left: 10px;
+    }
+.changeOrderSection{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px 15px;
+}
+    .changeOrderSection P{
+        padding: 5px  0;
+        font-size: 14px;
+    }
+    .changeOrderSection div{
+        font-size: 14px;
+    }
+    .changeOrderSection>div:first-child{
+        padding-bottom: 12px;
+        border-bottom: solid 1px #e5e5e5;
+    }
+    .changeOrderSection>div:nth-child(2){
+        padding-top: 12px;
+    }
+.flexBox{
+    display: flex;
+}
+.flexRight{
+    width: 40px;
+    text-align: right;
+    position: relative;
+}
+.flexRight i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.flexLeft{
+    flex: 1;
+}
+/*头部信息*/
+.infoTop{
+    width: 100%;
+    overflow: hidden;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    font-size: 13px;
+}
+/*底部信息*/
+.infoBottom{
+    position: absolute;
+    bottom: 44px;
+    padding-bottom: 6px;
+    width: 100%;
+    font-size: 12px;
+}
+.infoBottom p{
+    text-align: center;
+}
+.infoBottom a{
+    color: #609dd4;
+}
+
+
+/*milkTypeModal*/
+.milkTypeModal{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    z-index:9999;
+}
+.milkTypeHeader{
+    padding: 0 15px;
+}
+.milkTypeModalSon{
+    padding: 0 15px;
+    max-height: 250px;
+    overflow: auto;
+}
+    .milkTypeModal p{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .milkTypeModal .orderInfoCon {
+        background-color: transparent;
+        border-bottom: solid 1px #e5e5e5;
+
+    }
+    .milkTypeModal button{
+        width: 100%;
+        height: 44px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        background: -webkit-linear-gradient(left,#A8D9EF,#287DC2);
+        outline: none;
+        border: none;
+    }
+    .bacWhite{
+        padding: 10px;
+        overflow: hidden;
+        height: 80px;
+        background-color: white;
+    }
+    .bacBlue{
+        padding: 10px;
+        overflow: hidden;
+        height: 80px;
+        background-color: #A8D9EF;
+    }
+    .redShow{
+        color: red;
+        font-size: 14px;
+    }
+.changeLeft{
+    width: 22%;
+    float: left;
+}
+.changeLeft img{
+    width: 100%;
+    height: 60px;
+}
+.changeRight{
+    width: 75%;
+    padding-left: 3%;
+    float: right;
+    font-size: 13px;
+}

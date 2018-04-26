@@ -1,0 +1,20 @@
+.dispatchQuerySon{
+    margin-top: 10px;
+}
+.dispatchQuerySon .topFont .left{
+    font-size: 14px;
+    color: #609dd4;
+}
+.dispatchQuerySon:nth-of-type(1){
+    margin-top: 0;
+}
+.dispatchQuerySon .topFont span{
+    vertical-align: middle;
+}
+.spot{
+    border: 7px solid #609dd4;
+    border-radius: 50%;
+    background-color: #609dd4 ;
+    display: inline-block;
+    margin-right: 8px;
+}

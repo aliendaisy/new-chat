@@ -1,0 +1,155 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*Calender*/
+.calender{
+    width: 25%;
+    padding: 20px 0;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+    .calender .logStatus{
+        padding-bottom: 6px;
+    }
+    .calender .smFont{
+        font-size: 12px;
+    }
+    .calender .icon-badge{
+        position: absolute;
+        top: 14px;
+        right: 33%;
+        font-size: 14px;
+    }
+.topFont{
+    width: 100%;
+    padding: 5px 15px;
+    overflow: hidden;
+    background: #fff;
+    font-size: 12px;
+    color: #7c7c7c;
+}
+/*Logistics*/
+
+.whiteBack{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.marginT{
+    margin-top: 8px;
+}
+.labelCon{
+    background: #fff;
+}
+.labelRes{
+    padding: 10px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    font-size: 14px;
+}
+.labelRes p{
+    font-size: 12px;
+}
+.labelResLast{
+    border: none;
+}
+.icon-md{
+    font-size: 20px !important;
+    line-height: 20px;
+}
+.leftP{
+    width: 13%;
+    float: left;
+}
+.rightP{
+    width: 87%;
+    float: left;
+}
+/*物流中*/
+.packageDetail{
+    padding: 20px 0 0 20px;
+    margin: 0;
+    overflow: hidden;
+
+}
+    .packageDetail li{
+        padding-left: 15px;
+        border-left: 2px solid #b2b2b2;
+        position: relative;
+    }
+    .packageDetail li:last-child{
+        border: 2px solid transparent; /*不设置的话圆点会移动*/
+    }
+    .packageDetail li p.sendingTitle:before{
+        content: '';
+        border: 4px solid #b2b2b2;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: -20px; /*定位圆点左移*/
+        margin-right: 11px; /*定位圆点与右边元素的间距 li中的padding-left值减去此处的border宽度*/
+    }
+    .packageDetail p{
+        color: #7c7c7c;
+    }
+    .packageDetail .sendingTitle{
+        font-size: 13px;
+        position: absolute;
+        top: -10px; /*定位圆点位于li的border最上方*/
+    }
+    .packageDetail .sendingTime{
+        font-size: 11px;
+        padding: 10px 0 25px 0;
+    }
+    .packageDetail li:first-child p{
+        color: #609dd4;
+    }
+    .packageDetail li:first-child .sendingTitle:before{
+        border-color: #609dd4;
+    }
+/*未配送*/
+.unSend{
+    display: table;
+    padding: 20px 0 60px 0;
+    margin: 0 auto;
+    font-size: 16px;
+}
+    .unSend span{
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .unSend span:first-child{
+        padding-right: 5px;
+    }
+    .unSend span:last-child{
+        padding-left: 5px;
+    }
+/*调单*/
+.changeSend{
+    padding: 15px;
+}
+    .changeSend p{
+        color: #7c7c7c;
+        font-size: 13px;
+    }
+    .changeSend p:nth-of-type(3){
+        font-size: 11px
+    }
+/*popover*/
+.forSend{
+    width: 80%;
+    height: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}

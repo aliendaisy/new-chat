@@ -1,0 +1,83 @@
+
+/*配送地址信息*/
+.receiveCon{
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.defaultAddrCon{
+    font-size: 14px;
+}
+.defaultAddr{
+    color: red;
+}
+/*主页面*/
+.innerCon{
+    padding: 0;
+}
+.innerConPad{
+    padding: 10px 20px;
+    background-color: white;
+}
+.innerConPad:nth-of-type(2) {
+    padding: 10px 20px 0;
+}
+.clearPad{
+    padding-top: 0;
+}
+.titleFont{
+    font-size: 15px;
+    height: 40px;
+    border-bottom: solid 1px #e5e5e5;
+}
+    .titleFont p{
+        line-height: 40px;
+    }
+    .titleFont span{
+        display: inline-block;
+    }
+    .titleFont span:first-child{
+        width: 20px;
+    }
+    .titleFont span:last-child{
+        line-height: 40px;
+    }
+.autoFont{
+    line-height: 20px;
+}
+.otherFlex{
+    display: flex;
+}
+.infoFlex{
+    flex: 1;
+}
+.intoWidth{
+    margin-left: 8px;
+    padding-left: 16px;
+    position: relative;
+    overflow: hidden;
+}
+    .intoWidth span.iconfont{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+.infoFlexPad{
+    padding-left: 20px;
+}
+.borderBottom{
+    border-bottom: solid 1px #e5e5e5;
+    padding: 10px 0;
+}
+.borderBottom:last-child{
+    border: none;
+}
+
+
+

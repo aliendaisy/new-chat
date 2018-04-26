@@ -1,0 +1,29 @@
+/*确认支付页面*/
+.confirmPayCon{
+    width: 100%;
+    padding: 0 20px;
+    background-color: white;
+}
+    .confirmPayCon .confirmMoney{
+        border-bottom: solid 1px #e5e5e5;
+        /*line-height: 120px;*/
+        text-align: center;
+        padding: 50px 0;
+        /*height: 120px;*/
+        font-size: 34px;
+    }
+.confirmMoney span{
+    font-size: 23px;
+}
+.confirmMoney p{
+    font-size: 18px;
+}
+    .confirmPayCon .orderInfoConLeft{
+        flex: 4;
+    }
+    .confirmPayCon .confirmPrice .orderInfoConRight{
+       color: black;
+    }
+    .confirmPayCon .confirmDiscount  .orderInfoConRight {
+        color: #249C24;
+    }
